@@ -3,14 +3,124 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <title>Responsive email</title>
+            <title>Hitlist Newsletter</title>
+            <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
             <style type="text/css">
-                body{margin: 0; font-family: arial, sans-serif;}
+                body {
+                  margin:0 auto;
+                }
+                footer {
+                  height: 260px;
+                }
+                table {
+                  border: 0px;
+                  width: 100%;
+                  vertical-align: middle;
+                }
+                hr {
+                  display: block;
+                  margin-top: 0em;
+                  margin-bottom: 0em;
+                  margin-left: auto;
+                  margin-right: auto;
+                  border-style: inset;
+                  border-color: rgb(244, 244, 244);
+                  border-width: 1px;
+                }
+                h1 {
+                  padding: 30px;
+                  text-align: center;
+                  font-family: 'Brandon', sans-serif;
+                  src: url(Fonts/Brandon/brandon_reg-webfont.woff);
+                  font-size: 20pt;
+                  font-size: 2.8vw;
+                  text-transform: uppercase;
+                  white-space: nowrap;
+                }
+                h2 {
+                  padding: 30px;
+                  text-align: center;
+                  font-family: 'Brandon', sans-serif;
+                  src: url(Fonts/Brandon/brandon_bld-webfont.woff);
+                  font-size: 38pt;
+                  font-weight: 400;
+                  color: rgb(255, 255, 255);
+                  float: left;
+                  margin-left: 44px;
+                  margin: auto;
+                }
+                p {
+                  padding: 20px;
+                  text-align:center;
+                  font-family: 'Lato', sans-serif;
+                  font-size: 14pt;
+                  font-size: 2.4vw;
+                  line-height: 300%;
+                  white-space: nowrap;
+                }
+                .img {
+                  float: right;
+                  margin-right: 44px;
+                  margin-top: 32px;
+                }
+                .boldtext {
+                  font-weight: 600;
+                }
+                .subtext {
+                  font-weight: 200;
+                }
+                .infobar {
+                  height: 100px;
+                  width: 100%;
+                  background: rgb(0, 0, 0);
+                }
+                .feature {
+                  min-width:100%;
+                  max-height:600px;
+                  display:flex;
+                  justify-content:center;
+                  align-items:center;
+                  overflow:hidden
+                }
+                .feature img {
+                  flex-shrink:0;
+                  min-width:100%;
+                  max-height:100px;
+                }
             </style>
         </head>
         <body>
-            <table border="1" cellpadding="0" cellspacing="0" width="100%">
-              <img src="IMG/logo.png">
+            <table>
+              <h1><img src="IMG/logo.png"></h1>
+            </table>
+            <hr>
+            <table>
+              <p>Labor Day is right around the corner…<br/>
+              and we have some <b><i>great ideas</i></b> for your next travel destinations.<br/>
+              What are you waiting for? Pack your bags and hit the road!</p>
+            </table>
+            <hr>
+            <table>
+              <h1><a class="boldtext">Labor Day Getaway</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="subtext">September 5 - September 7</a></h1>
+            </table>
+            <table>
+              <img src="IMG/balloons.jpg" class="feature"></img>
+              <table>
+                <div class="infobar">
+                <h2>$589</h2>
+                <div class="img"><img src="IMG/share.png"></img></div>
+                </div>
+              </table>
+            </table>
+            <hr>
+            <table>
+              <h1><a class="boldtext">Next Weekend</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="subtext">July 18 - July 19</a></h1>
+            </table>
+            <hr>
+            <table>
+              <h1><a class="boldtext">Some More Crazy Deals</a></h1>
             </table>
         </body>
+        <footer>
+        </footer>
     </html>
