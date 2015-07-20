@@ -1,0 +1,338 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitlist Newsletter</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-color: rgb(244, 244, 244);
+    }
+
+    footer {
+      height: 260px;
+    }
+
+    hr {
+      display: block;
+      height: 0px;
+      border: 0;
+      border-top: 1px solid rgb(244, 244, 244);
+    }
+
+    @media screen and (min-width:640px) {
+      /* Max Width depends on your design */
+      .breakpoint {
+        /* only experimentation or */
+        display: none;
+        /* calculation will reveal */
+        line-height: 0;
+        /* the best max-width */
+      }
+    }
+
+    @media screen and (min-width:639px) {
+      .disappear {
+        display: none;
+        content: ' ';
+      }
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      padding: 30px;
+      font-size: 16pt;
+      padding-bottom: 12px;
+    }
+
+    @media all and (min-width: 640px) {
+      h1 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-width: 640px;
+        -moz-column-width: 640px;
+        column-width: 640px;
+      }
+    }
+
+    @media all and (max-width: 639px) and (min-width: 0px) {
+      h1 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-width: 350px;
+        -moz-column-width: 350px;
+        column-width: 350px;
+      }
+    }
+
+    h2 {
+      text-align: right;
+    }
+
+    .feature {
+      max-height: 300px;
+      width: 100%;
+      display: block;
+    }
+
+    .boldtext {
+      font-weight: 700;
+    }
+
+    .subtext {
+      font-weight: 400;
+      color: rgb(218, 218, 218);
+    }
+
+    .trip {
+      font-family: 'Lato', sans-serif;
+      padding-left: 30px;
+    }
+
+    .tripname {
+      font-weight: bolder;
+      padding-left: 0px;
+      font-size: 16pt;
+    }
+
+    .airports {
+      font-weight: 300;
+      padding-left: 0px;
+      font-size: 16pt;
+      color: rgb(115, 118, 118);
+    }
+
+    .route {
+      height: 16px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .price {
+      font-family: 'Lato', sans-serif;
+    }
+
+    .newprice {
+      padding-right: 5px;
+      font-weight: 600;
+      font-size: 20pt;
+      color: rgb(52, 170, 220);
+    }
+
+    .oldprice {
+      padding-right: 11px;
+      font-weight: lighter;
+      font-size: 16pt;
+      color: rgb(115, 118, 118);
+      text-decoration: line-through;
+    }
+    /* BEGIN RWD */
+    /* BEGIN RWD */
+    /* BEGIN RWD */
+    /*  SECTIONS  */
+
+    .section {
+      clear: both;
+      padding: 0px;
+      margin: 0px;
+    }
+    /*  COLUMN SETUP  */
+
+    .col {
+      display: block;
+      float: left;
+      width: 0%;
+      margin: 0% 0 0% 0%;
+    }
+
+    .col:first-child {
+      margin-left: 0;
+    }
+    /*  GROUPING  */
+
+    .group:before,
+    .group:after {
+      content: "";
+      display: table;
+    }
+
+    .group:after {
+      clear: both;
+    }
+
+    .group {
+      zoom: 1;
+      /* For IE 6/7 */
+    }
+    /*  GRID OF THREE  */
+
+    .span1 {
+      width: 100%;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+    }
+    /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+    @media only screen and (max-width: 640px) {
+      .col {
+        margin: 0% 0 0% 0%;
+      }
+      .span1 {
+        width: 100%;
+      }
+    }
+    /*END RWD */
+    /*END RWD */
+    /*END RWD */
+  </style>
+</head>
+<header style="text-align: center;">
+  <img style="
+        padding-top: 30px;
+        width: 208px;
+        height: 44px;
+        " src="IMG/logo.png"></img>
+</header>
+
+<body style="
+  max-width: 640px;
+  margin: 0 auto;
+">
+  <h1 class="boldtext">LABOR DAY SPECIALS
+    <span class="disappear">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <br class="breakpoint" />
+    <span class="subtext">SEPTEMBER 5 - SEPTEMBER 7</span>
+  </h1>
+  <img class="feature" src="IMG/balloons.png"></img>
+  <table style="
+    display: block;
+    ">
+    <td>
+      <a>
+        <span class="trip tripname">
+          Silicon Valley
+        </span>
+      </a>
+      <br/>
+      <a>
+        <span class="trip airports">
+          LAX
+          <img class="route" src="IMG/Route.png"> SFO
+        </span>
+      </a>
+    </td>
+    <td style="text-align: right;">
+      <a>
+        <span class="price newprice">
+          $500
+        </span>
+      </a>
+      <br/>
+      <a>
+        <span class="price oldprice">
+          $600
+        </span>
+      </a>
+    </td>
+    <td>
+      <img style="
+        height: 26px;
+        padding-right: 0px;
+        " src="IMG/Arrow_Right.png">
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <div style="width: 320px;" class="col span1">
+          <table>
+            <td>
+              <a>
+                <span class="trip tripname">
+                  Silicon Valley
+                </span>
+              </a>
+              <br/>
+              <a>
+                <span class="trip airports">
+                  LAX
+                  <img class="route" src="IMG/Route.png"> SFO
+                </span>
+              </a>
+            </td>
+            <td style="text-align: right;">
+              <a>
+                <span class="price newprice">
+                  $500
+                </span>
+              </a>
+              <br/>
+              <a>
+                <span class="price oldprice">
+                  $600
+                </span>
+              </a>
+            </td>
+            <td>
+              <img style="
+            height: 26px;
+            padding-right: 0px;
+            " src="IMG/Arrow_Right.png">
+            </td>
+          </table>
+        </div>
+      </td>
+      <td>
+        <div style="width: 320px;" class="col span1">
+          <table>
+            <td>
+              <a>
+                <span class="trip tripname">
+                  Silicon Valley
+                </span>
+              </a>
+              <br/>
+              <a>
+                <span class="trip airports">
+                  LAX
+                  <img class="route" src="IMG/Route.png"> SFO
+                </span>
+              </a>
+            </td>
+            <td style="text-align: right;">
+              <a>
+                <span class="price newprice">
+                  $500
+                </span>
+              </a>
+              <br/>
+              <a>
+                <span class="price oldprice">
+                  $600
+                </span>
+              </a>
+            </td>
+            <td>
+              <img style="
+            height: 26px;
+            padding-right: 0px;
+            " src="IMG/Arrow_Right.png">
+            </td>
+          </table>
+        </div>
+      </td>
+
+</body>
+<footer>
+</footer>
+
+</html>
