@@ -8,6 +8,18 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <style type="text/css">
+    @media all and (min-width: 700px) {
+      body {
+        width: 700px;
+      }
+    }
+
+    @media all and (max-width: 699px) and (min-width: 0px) {
+      body {
+        width: 100%;
+      }
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -207,7 +219,6 @@
 <body style="
   max-width: 640px;
   margin: 0 auto;
-  margin-top: 40px;
 ">
   <h1 class="boldtext">LABOR DAY SPECIALS
     <span class="disappear">&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -245,10 +256,9 @@
         </span>
       </a>
     </td>
-    <td>
+    <td style="width:26px;">
       <img style="
         height: 26px;
-        padding-right: 0px;
         " src="IMG/Arrow_Right.png">
     </td>
     </tr>
@@ -286,13 +296,12 @@
             <td>
               <img style="
             height: 26px;
-            padding-right: 0px;
             " src="IMG/Arrow_Right.png">
             </td>
           </table>
         </div>
       </td>
-      <td>
+      <td colspan="2">
         <div style="width: 320px;" class="col span1">
           <table>
             <td>
@@ -325,7 +334,6 @@
             <td>
               <img style="
             height: 26px;
-            padding-right: 0px;
             " src="IMG/Arrow_Right.png">
             </td>
           </table>
@@ -333,7 +341,5 @@
       </td>
 
 </body>
-<footer>
-</footer>
 
 </html>
